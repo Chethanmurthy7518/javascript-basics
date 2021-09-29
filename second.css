@@ -1,0 +1,22 @@
+ 
+button {
+    width: 90px;
+    height: 60px;
+    font-size: 30px;
+    background-color:coral;
+    color: honeydew;
+}
+.box{
+    border: 2px double black;
+    position: relative;
+    left: 600px;
+}
+/* table{
+    border: 2px;
+} */
+#count{
+    font-size: 200px;
+    position: relative;
+    left: 2px;
+    color: darkgreen;
+}   
