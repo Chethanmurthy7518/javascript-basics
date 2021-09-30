@@ -101,7 +101,12 @@ let person=["person1","person2","person3"]
 
 
 let fruites=new Array("Apple","Banana","Mango")
-console.log(person, fruites)
+
+
+for(let i=0; i<=person.length;i++){
+    let a=person[i],
+    cons
+}
 
 
 

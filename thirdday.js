@@ -89,13 +89,68 @@
 // console.log(arr)
 
 
-let arr = ['a','b','c','a','b','d']
+// let arr = ['a','b','c','a','b','d']
 
-let filteredArray = arr.filter((val,i)=>{
-    return arr.indexOf(val)===i
-})
+// let filteredArray = arr.filter((val,i)=>{
+//     return arr.indexOf(val)===i
+// })
 
-console.log(filteredArray)
+// console.log(filteredArray)
 
 
 
+// var a=0;
+// while(a<10){
+//      if(a===10){
+//          break;
+//      }
+//      a++
+//      console.log(a)
+
+
+
+// }
+
+
+// let cars = [
+//     {
+//         model:2021,
+//         price:2000000,
+//         color:"black"
+//     },
+//     {
+//         model:2020,
+//         price:2000000,
+//         color:"white"
+//     },
+//     {
+//         model:2019,
+//         price:2000000,
+//         color:"Gold"
+//     }
+
+
+
+
+// ]
+
+// cars.forEach(element=>{
+//     console.log(element);
+//     })
+
+
+// for (let i=0; i<cars.length; i++){
+//     const element = cars[i];
+//     console.log(element)
+// }
+
+
+var person = {
+    Name= "Chethan",
+    Age = 26,
+    Qualification="B.E"
+}
+
+for(const key in person){
+    console.log()
+}
