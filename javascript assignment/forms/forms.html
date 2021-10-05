@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        Integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="col-md-10">
+            <div class="card m -auto">
+                <div class="card text-left">
+                    <div class="card title -text center mt-3">
+                        javascriprt form
+                    </div>
+                    <div class="card-body">
+
+                        <form name='register' onsubmit="return detailsVaidation();">
+                            <div class="form-group">
+                                <label for="username">user name</label>
+                                <input type="text" class="form-control" id="username">
+                                <small id="userErrorMessage" class="form-text text-muted text-danger"></small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" id="email">
+                                <small id="emailErrorMessage" class="form-text text-muted text-danger"></small>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactNumber">Contact number</label>
+                                <input type="number" class="form-control" id="contactNumber">
+                                <small id="contactErrorMessage" class="form-text text-muted text-danger"></small>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password">
+                                <small id="passwordErrorMessage" class="form-text text-muted text-danger"></small>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Submit</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="forms.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

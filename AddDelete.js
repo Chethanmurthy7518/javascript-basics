@@ -62,6 +62,7 @@ console.log(document.getElementById('lname').value);
     cell0.innerHTML = noname;
     cell1.innerHTML = fname;
     cell2.innerHTML = lname;
+    
 
 
 
