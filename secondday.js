@@ -83,7 +83,10 @@
 //     address:"oEWFUOHVCDNKLNC JBSDK"
 // }
 // console.log(Object.keys(person));
-// console.log(Object.values(person))
+// console.log(person);
+// console.log(Object.assign, {person});
+// console.log(Object.values(person));
+// console.log(Object.values(person));
 
 
 // var boom={
@@ -97,16 +100,36 @@
 
 
 
-let person=["person1","person2","person3"]
+// let person=["person1","person2","person3"]
 
 
-let fruites=new Array("Apple","Banana","Mango")
+// let fruites=new Array("Apple","Banana","Mango")
 
 
-for(let i=0; i<=person.length;i++){
-    let a=person[i],
-    cons
+// for(let i=0; i<=person.length;i++){
+//     let a=person[i],
+//     cons
+// }
+
+
+const person  = {
+    uname : 'Chethan',
+    age: 26,
+    address : {
+        state : 'Karnataka',
+        pincode : 562110
+    }
 }
+// console.log(person);
+
+const personCopy = Object.assign({}, person)
+
+// console.log(personCopy);
+
+personCopy.address.state = 'Bangalore'
+
+// console.log(person);
+// console.log(personCopy);
 
 
 
